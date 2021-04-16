@@ -26,7 +26,9 @@ describe('SolarAge class', () => {
     expect(mySolarAge.earthDays).toEqual(365);
   })
 
-  test('SolarAge should have')
+  test('SolarAge should have getMercuryAge method', () => {
+    expect(mySolarAge.getMerurcyAge).toBeDefined();
+  })
 
 })
 
