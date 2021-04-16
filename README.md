@@ -1,11 +1,11 @@
-# PROJECT NAME
+# Galactic Age Calculator
 ## By Adrian Camacho
 
 ---
 
 ### Project Description
 
-This project is a web application that DESCRIPTION
+This project is a web application that calculates your age and life expectancy on different planets in our Solar system.
 ---
 ### Tech Stack
 1. HTML5+CSS3
@@ -24,26 +24,30 @@ This project is a web application that DESCRIPTION
 
 ---
 ### Installation Instructions
-1. Clone this repo: `git clone https://github.com/Usarneme/REPO URL`
-2. Enter new directory `cd REPO DIR`
+1. Clone this repo: `git clone https://github.com/chonnessey/galactic-age`
+2. Enter new directory `cd galactic-age`
 3. Install dependencies with `npm install`
 4. To run it locally, use the npm dev command `npm run start:dev`
 5. Open your web browser and navigate to http://localhost:9001
 6. For a production build, use `npm run build`
 ---
 ### Known Issues:
-1. NO KNOWN ISSUES
+1. _This project is still in progress._
 2. Please open a pull request if you have any issues!
 ---
 ### Test Suite/Specification
 
-> See also [the Jest Test File](TESTSURL) for Jest Test Suite which includes 14 passing tests. View Test Results from Project Directory by Running `yarn run test` or if you prefer npm `npm run test`
+> See also [galactic.test.js](https://github.com/chonnessey/galactic-age/tree/main/__tests__) for Jest Test Suite which includes 7 passing tests. View Test Results from Project Directory by Running `yarn run test` or if you prefer npm `npm run test`
 
 ```
 Describe: TESTS
 
 ```
 ---
+
+### Contact info
+Adrian Camacho:  <adriancamacho18@gmail.com>
+
 ### License is GPLv3 and I make no claim to copyright. 
 <br />
 
