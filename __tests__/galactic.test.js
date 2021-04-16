@@ -17,5 +17,9 @@ describe('Solar class', () => {
   test('Solar should haved lifeExpectancy property', () => {
     expect(mySolar.lifeExpectancy).toBeUndefined();
   })
+
+  test('Solar should have a earthYear property', () => {
+    expect(mySolar.earthYear).toEqual(365);
+  })
 })
 
