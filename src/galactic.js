@@ -6,5 +6,7 @@ export class SolarAge {
     this.yearsLeft = this.lifeExpectancy - this.age;
   }
 
-  // getMecruryAge() 
+  getMercuryAge() {
+
+  }
 }
