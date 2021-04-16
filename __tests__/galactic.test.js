@@ -5,6 +5,7 @@ describe('SolarAge class', () => {
   beforeEach(() => {
     mySolarAge = new SolarAge()
   })
+
   
   test('SolarAge class should exist', () => {
     expect(mySolarAge).toBeDefined();
@@ -14,7 +15,7 @@ describe('SolarAge class', () => {
     expect(mySolarAge.age).toBeUndefined();
   })
 
-  test('SolarAge should haved lifeExpectancy property', () => {
+  test('SolarAge should have lifeExpectancy property', () => {
     expect(mySolarAge.lifeExpectancy).toBeUndefined();
   })
 
@@ -22,12 +23,17 @@ describe('SolarAge class', () => {
     expect(mySolarAge.yearsLeft).toBeDefined();
   })
 
-  test('SolarAge should have earthDays property equal to 365', () => {
-    expect(mySolarAge.earthDays).toEqual(365);
+  test('SolarAge should have earthDays property', () => {
+    expect(mySolarAge.earthDays).toBeDefined();
   })
 
   test('SolarAge should have getMercuryAge method', () => {
     expect(mySolarAge.getMercuryAge).toBeDefined();
+  })
+
+  test('getMercuryAge method should return users age in mercury', () => {
+    const mercuryDays = 88
+    expect(mySolarAge.getMercuryAge()).toBeDefined(mercuryDays);
   })
 
 })
