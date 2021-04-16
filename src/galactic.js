@@ -12,5 +12,3 @@ export class SolarAge {
     return myMercuryAge;
   }
 }
-
-console.log(this.earthDays)

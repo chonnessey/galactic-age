@@ -33,7 +33,7 @@ describe('SolarAge class', () => {
 
   test('getMercuryAge method should return users age in mercury', () => {
     const mercuryDays = 88
-    expect(mySolarAge.getMercuryAge()).toBeDefined(mercuryDays);
+    expect(mySolarAge.getMercuryAge()).toBeDefined(mercuryAge);
   })
 
 })
