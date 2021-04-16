@@ -1,4 +1,4 @@
-export class Solar {
+export class SolarAge {
   constructor(age, lifeExpectancy) {
     this.age = age;
     this.lifeExpectancy = lifeExpectancy;
@@ -6,7 +6,5 @@ export class Solar {
     this.yearsLeft = this.lifeExpectancy - this.age;
   }
 
-  // getEarthYears() {
-
-  // }
+  // getMecruryAge() 
 }

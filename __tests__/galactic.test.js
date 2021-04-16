@@ -1,33 +1,32 @@
-import { Solar } from "../src/galactic.js"
+import { SolarAge } from "../src/galactic.js"
 
-describe('Solar class', () => {
-  let mySolar;
+describe('SolarAge class', () => {
+  let mySolarAge;
   beforeEach(() => {
-    mySolar = new Solar()
+    mySolarAge = new SolarAge()
   })
   
-  test('Solar class should exist', () => {
-    expect(mySolar).toBeDefined();
+  test('SolarAge class should exist', () => {
+    expect(mySolarAge).toBeDefined();
   })
 
-  test('Solar should have age property', () => {
-    expect(mySolar.age).toBeUndefined();
+  test('SolarAge should have age property', () => {
+    expect(mySolarAge.age).toBeUndefined();
   })
 
-  test('Solar should haved lifeExpectancy property', () => {
-    expect(mySolar.lifeExpectancy).toBeUndefined();
+  test('SolarAge should haved lifeExpectancy property', () => {
+    expect(mySolarAge.lifeExpectancy).toBeUndefined();
   })
 
-  test('Solar should have a yearsLeft property', () => {
-    expect(mySolar.yearsLeft).toBeDefined();
+  test('SolarAge should have a yearsLeft property', () => {
+    expect(mySolarAge.yearsLeft).toBeDefined();
   })
 
-  test('Solar should have earthDays property equal to 365', () => {
-    expect(mySolar.earthDays).toEqual(365);
+  test('SolarAge should have earthDays property equal to 365', () => {
+    expect(mySolarAge.earthDays).toEqual(365);
   })
 
-  // test('Solar has getEarthYears method', () => {
-  //   expect(mySolar.getEarthYears).toBeDefined();
-  // })
+  test('SolarAge should have')
+
 })
 
