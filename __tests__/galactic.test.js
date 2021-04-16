@@ -1,15 +1,15 @@
-import { SolarAge } from "../src/galactic.js"
+import { Solar } from "../src/galactic.js"
 
-describe('SolarAge class', () => {
+describe('Solar class', () => {
 
-  test('SolarAge class should exist', () => {
-    let mySolarAge = new SolarAge()
-    expect(mySolarAge).toBeDefined();
+  test('Solar class should exist', () => {
+    let mySolar = new Solar()
+    expect(mySolar).toBeDefined();
   })
 
-  test('SolarAge should have age property', () => {
-    let mySolarAge = new SolarAge()
-    expect(mySolarAge.age).toBeDefined();
+  test('Solar should have age property', () => {
+    let mySolar = new Solar()
+    expect(mySolar.age).toBeUndefined();
   })
 })
 
