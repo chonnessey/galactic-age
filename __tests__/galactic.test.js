@@ -22,8 +22,12 @@ describe('Solar class', () => {
     expect(mySolar.yearsLeft).toBeDefined();
   })
 
-  test('Solar has getEarthYears method', () => {
-    expect(mySolar.getEarthYears).toBeDefined();
+  test('Solar should have earthDays property equal to 365', () => {
+    expect(mySolar.earthDays).toEqual(365);
   })
+
+  // test('Solar has getEarthYears method', () => {
+  //   expect(mySolar.getEarthYears).toBeDefined();
+  // })
 })
 
