@@ -4,4 +4,7 @@ export class Solar {
     this.lifeExpectancy = lifeExpectancy;
     this.yearsLeft = this.lifeExpectancy - this.age
   }
+
+  getEarthYears() {
+  }
 }

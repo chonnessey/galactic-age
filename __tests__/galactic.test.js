@@ -21,5 +21,9 @@ describe('Solar class', () => {
   test('Solar should have a yearsLeft property', () => {
     expect(mySolar.yearsLeft).toBeDefined();
   })
+
+  test('Solar has getEarthYears method', () => {
+    expect(mySolar.getEarthYears).toBeDefined();
+  })
 })
 
