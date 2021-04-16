@@ -1,5 +1,6 @@
 export class Solar {
-  constructor(age) {
+  constructor(age, lifeExpectancy) {
     this.age = age;
+    this.lifeExpectancy = lifeExpectancy;
   }
 }
