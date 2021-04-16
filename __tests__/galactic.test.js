@@ -18,12 +18,8 @@ describe('Solar class', () => {
     expect(mySolar.lifeExpectancy).toBeUndefined();
   })
 
-  test('Solar should have a earthYear property', () => {
-    expect(mySolar.earthYear).toEqual(365);
-  })
-
   test('Solar should have a yearsLeft property', () => {
-    expect(mySolar.yearsLeft).toBeDefined();
+    expect(mySolar.yearsLeft).toBeDefined([]);
   })
 })
 
