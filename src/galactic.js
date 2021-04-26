@@ -1,7 +1,7 @@
 export class SolarAge {
-  constructor(age) {
+  constructor(age, lifeExpectancy) {
     this.age = age;
-    this.lifeExpectancy = 100;
+    this.lifeExpectancy = lifeExpectancy;
     this.earthDays = 365 * this.age;
     this.yearsLeft = this.lifeExpectancy - this.age;
   }
