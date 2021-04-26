@@ -36,8 +36,7 @@ describe('SolarAge class', () => {
     let myMercuryAge = (9125/mercuryDays)
     let myMercuryLife = (100 - myMercuryAge)
     let mercuryTimeLeft = (myMercuryLife - myMercuryAge)
-    expect(mySolarAge.getMercuryAge()).toEqual(`On Mercury you are ${103.69} years old and you have lived past your life expectancy by ${-3.69 * mercuryTimeLeft} days!`);
-    console.log(myMercuryTimeLeft)
+    expect(mySolarAge.getMercuryAge()).toEqual(`On Mercury you are ${myMercuryAge} years old and you have lived past your life expectancy by ${-3.69 * mercuryTimeLeft} days!`);
   })
 
 })

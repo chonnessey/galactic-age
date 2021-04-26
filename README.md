@@ -17,12 +17,6 @@ This project is a web application that calculates your age and life expectancy o
 7. babel transpiler
 8. Jest testing
 ---
-
-### Project Build Available At:
-
-[BUILD URL](BUILD URL)
-
----
 ### Installation Instructions
 1. Clone this repo: `git clone https://github.com/chonnessey/galactic-age`
 2. Enter new directory `cd galactic-age`
